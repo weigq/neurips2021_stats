@@ -1,0 +1,9 @@
+.idea/
+.ipynb_checkpoints/
+chromedriver_win32/
+*.zip
+!/assets/data.zip
+__pycache__/
+/assets/data/
+.DS_Store
+external/
