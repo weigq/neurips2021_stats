@@ -1,8 +1,91 @@
-body {
-    font-size: 14px;
-    font-family: 'Noto Sans', sans-serif;
+:root {
+	--my-blue: #4f70f6;
+	--nips-red: #80261b;
+	--nips-bg: #fffdfa;
+	--nips-blue: #597f91;
+	--nips-blue2: #496876;
+	--nips-bg2: #eeece4;
+	--nips-font-black: #2f3a49;
 }
 
-td, tr {
-    border: 1px solid #cbcbcb;
+body {
+	background-color: var(--nips-bg);
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+	width: 100%;
+	margin: 0;
+}
+
+table {
+	border-spacing: 0;
+	width: 90%;
+	margin-left: 5%;
+	color: var(--nips-font-black);
+}
+
+td {
+    border-left: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	background-color: var(--nips-bg2);
+	padding-left: 8px;
+	text-align: center;
+}
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	margin-right: 6px;
+	margin-left: 4px;
+	border-width: 0 6px 6px;
+	border-style: solid;
+	border-color: var(--nips-blue) transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 6px 6px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: .8;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+.header {
+	width: 100%;
+	background-color: var(--nips-red);
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	font-size: 26px;
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	color: var(--nips-blue);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--nips-blue2);
 }
