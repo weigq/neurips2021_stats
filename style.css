@@ -5,7 +5,10 @@
 	--nips-blue: #597f91;
 	--nips-blue2: #496876;
 	--nips-bg2: #eeece4;
+	--nips-bg-menu: #efece3;
+	--nips-bg-menu-hover: #eeeeee;
 	--nips-font-black: #2f3a49;
+	--nips-gray-line: #dddddd;
 }
 
 body {
@@ -18,9 +21,11 @@ body {
 
 table {
 	border-spacing: 0;
-	width: 90%;
-	margin-left: 5%;
+	margin: auto;
+	/*width: 90%;*/
+	/*margin-left: 5%;*/
 	color: var(--nips-font-black);
+	table-layout: fixed;
 }
 
 td {
@@ -41,14 +46,14 @@ th[role=columnheader]:not(.no-sort) {
 th[role=columnheader]:not(.no-sort):after {
 	content: '';
 	float: right;
-	margin-top: 7px;
+	margin-top: 10px;
 	margin-right: 6px;
-	margin-left: 4px;
+	/*margin-left: 4px;*/
 	border-width: 0 6px 6px;
 	border-style: solid;
 	border-color: var(--nips-blue) transparent;
-	visibility: hidden;
-	opacity: 0;
+	/*visibility: hidden;*/
+	opacity: .2;
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -72,13 +77,47 @@ th[role=columnheader]:not(.no-sort):hover:after {
 
 .header {
 	width: 100%;
-	background-color: var(--nips-red);
-	color: white;
+	/*background-color: var(--nips-red);*/
+	/*color: white;*/
 	height: 50px;
 	line-height: 50px;
 	font-size: 26px;
 	text-align: center;
 	margin: 0;
+}
+
+th {
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid red;
+}
+
+th:is(.th-rank) {
+	width: 40px;
+}
+
+th:is(.th-rat) {
+	width: 90px;
+}
+
+th:is(.th-title) {
+	width: 700px;
+}
+
+th:is(.th-rats) {
+	width: 200px;
+}
+
+th:is(.th-var) {
+	width: 100px;
+}
+
+th:is(.th-d) {
+	width: 100px;
+}
+
+td:not(.td-left) {
+	text-align: center;
 }
 
 a {
@@ -89,3 +128,42 @@ a {
 a:hover {
 	color: var(--nips-blue2);
 }
+
+.menu {
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	/*background-color: var(--nips-bg-menu);*/
+	/*border: 1px solid red;*/
+	display: flex;
+	border-bottom: 1px solid var(--nips-gray-line);
+}
+
+.sub-menu {
+	height: 49px;
+	line-height: 49px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding: 0 10px;
+	background-color: var(--nips-bg-menu);
+	border-top: 1px solid var(--nips-gray-line);
+	border-left: 1px solid var(--nips-gray-line);
+	border-right: 1px solid var(--nips-gray-line);
+	/*border-bottom: 1px solid var(--nips-gray-line);*/
+	cursor: pointer;
+}
+
+.sub-menu:is(.act) {
+	border-bottom: 1px solid var(--nips-bg);
+	cursor: default;
+	background-color: var(--nips-bg);
+}
+
+.sub-menu:not(.act):hover {
+	cursor: pointer;
+	background-color: var(--nips-bg-menu-hover);
+}
+
