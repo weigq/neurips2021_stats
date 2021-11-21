@@ -144,8 +144,19 @@ th[role=columnheader]:not(.no-sort):hover:after {
 	margin-right: 6px;
 }
 
-.note span {
+.note hr {
+	width: 100%;
+	margin-left: -20px;
+}
+
+.note span:not(.bg) {
 	color: var(--my-orange);
+}
+
+.note span:is(.bg) {
+	background-color: #d5d5d5;
+	padding: 0 4px;
+	border-radius: 4px;
 }
 
 th:is(.th-rank) {
@@ -190,6 +201,15 @@ td:is(.poster) {
 
 tbody tr {
 	height: 46px;
+}
+
+.note tr {
+	height: 36px;
+}
+
+.note table {
+	width: 600px;
+	margin-left: 10px;
 }
 
 tr:hover {
@@ -247,7 +267,6 @@ a:active {
 	cursor: pointer;
 	background-color: var(--nips-bg-menu-hover);
 }
-
 
 /* source from https://codepo8.github.io/css-fork-on-github-ribbon/*/
 #forkongithub a{
