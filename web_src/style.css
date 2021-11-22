@@ -14,7 +14,7 @@
 }
 
 body {
-	background-color: var(--my-bg);
+	background-color: white;
     font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
 	width: 100%;
@@ -121,7 +121,7 @@ th[role=columnheader]:not(.no-sort):hover:after {
 }
 
 .note {
-	background-color: rgba(231, 231, 231, 0.82);
+	background-color: rgba(240, 240, 240, 0.82);
 	border-radius: 6px;
 	/*padding: 1px 0;*/
 	width: 90%;
@@ -277,9 +277,9 @@ a:active {
 }
 
 .sub-menu:is(.act) {
-	border-bottom: 2px solid var(--my-bg);
+	border-bottom: 2px solid white;
 	cursor: default;
-	background-color: var(--my-bg);
+	background-color: white;
 }
 
 .sub-menu:not(.act):hover {
