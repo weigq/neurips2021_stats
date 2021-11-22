@@ -133,6 +133,7 @@ th[role=columnheader]:not(.no-sort):hover:after {
 
 .note li {
 	list-style: none;
+	line-height: 150%;
 }
 
 .note li::before {
@@ -146,6 +147,11 @@ th[role=columnheader]:not(.no-sort):hover:after {
 
 .note hr {
 	width: 100%;
+	margin-left: -20px;
+	border-color: rgba(239, 239, 239, 0.47);
+}
+
+.note h3 {
 	margin-left: -20px;
 }
 
@@ -187,6 +193,10 @@ td:not(.td-left) {
 	text-align: center;
 }
 
+td:is(.total) {
+	background-color: #dedede;
+}
+
 td:is(.oral) {
 	background-color: #fb7b8f;
 }
@@ -199,6 +209,15 @@ td:is(.poster) {
 	background-color: rgba(251, 123, 143, 0.19);
 }
 
+.note img {
+	cursor: pointer;
+}
+
+td span {
+	font-size: 14px;
+	color: rgba(79, 112, 246, 0.73);
+}
+
 tbody tr {
 	height: 46px;
 }
@@ -209,7 +228,7 @@ tbody tr {
 
 .note table {
 	width: 600px;
-	margin-left: 10px;
+	margin-left: 18px;
 }
 
 tr:hover {

@@ -3,9 +3,9 @@
 <head>
     <meta charset='UTF-8'>
     <title>ICLR2022 Statistics</title>
-    <link href='style.css' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
-    <link href='src/fontawesome-5.15.4/css/all.min.css' rel='stylesheet'>
+    <link href='web_src/style.css' rel='stylesheet'>
+    <link href='web_src/noto_sans.css' rel='stylesheet'>
+    <link href='web_src/fontawesome-5.15.4/css/all.min.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -36,15 +36,50 @@
             The finally rejected submissions are excluded in this list.
         </li>
         <hr>
+        <h3>All submissions</h3>
+        <li>
+            <span class="bg">2334</span> submissions are finally accepted.
+        </li>
+        <li>
+            <span class="bg">298 (13%)</span> submissions received two set of reviews.
+        </li>
+        <li>
+            <span class="bg">2632 (=2334+298)</span> set of reviews in total.
+        </li>
+        <li>
+            <span class="bg">6.36</span> average rating of all <span class="bg">2632</span> ratings.
+        </li>
+        <li> Rating details:
+            <table>
+                <tr><td>Decision</td><td>#</td><td>rating avg.</td><td>rating max</td><td>rating min</td></tr>
+                <tr><td class="oral">Oral</td><td>56</td><td>7.56</td><td>8.75</td><td>6.33</td></tr>
+                <tr><td class="spotlight">Spotlight</td><td>282</td><td>7.01</td><td>8.33</td><td>5.50</td></tr>
+                <tr><td class="poster">Poster</td><td>2095</td><td>6.36</td><td>8.00</td><td>4.67</td></tr>
+                <tr><td class="reject">Reject</td><td>199</td><td>5.19</td><td>7.33</td><td>3.75</td></tr>
+                <tr><td class="total">Total</td><td>2632</td><td>6.36</td><td>8.75</td><td>3.75</td></tr>
+            </table>
+        </li>
+        <li>
+            Rating distribution:
+        </li>
+            <img style="margin-left: -60px;" src="assets/stats_bar.png" alt="" width="1000" onclick="window.open(this.src)">
+        <li>
+            Top <span class="bg">Keywords</span>:
+        </li>
+            <img src="assets/keywords_bar.png" alt="" width="1000" onclick="window.open(this.src)">
+        <hr>
         <h3>Consistency experiment</h3>
         <li>
-            <span class="bg">298</span> submissions received two set of reviewers.
+            <span class="bg">298</span> submissions (finally accepted) received two set of reviews.
         </li>
         <li>
-            <span class="bg">221</span> among <span class="bg">298</span> submissions received two different decisions.
+            <span class="bg">221 (74%)</span> submissions received two different decisions.
         </li>
         <li>
-            <span class="bg">77</span> among <span class="bg">298</span> submissions received two consistent decisions.
+            <span class="bg">77 (26%)</span> submissions received two consistent decisions.
+        </li>
+        <li>
+            <span class="bg">199 (67%)</span> submissions received one <span class="bg">Reject</span> decision.
         </li>
         <li> Details:
             <table>
@@ -58,27 +93,16 @@
                 <tr><td class="poster">Poster</td><td class="spotlight">Spotlight</td><td class="reject">Reject</td><td>16</td></tr>
                 <tr><td class="poster">Poster</td><td class="poster">Poster</td><td class="poster">Poster</td><td>74</td></tr>
                 <tr><td class="poster">Poster</td><td class="poster">Poster</td><td class="reject">Reject</td><td>174</td></tr>
+                <tr><td colspan="3" class="total">Total</td><td>298</td></tr>
             </table>
-        </li>
-        <li>
-            <span>👍👍</span>: final decision
-        </li>
-        <li>
-            <span>👍</span>: decision for this set reviewers, which may be different with the final decision
-        </li>
-        <li>
-            <span>👍</span>: decision for this set reviewers, which may be different with the final decision
-        </li>
-        <li>
-            <span>CE</span>: Consistency Experiment
         </li>
     </ul>
 </div>
 
 
 
-<script src='src/tablesort.min.js'></script>
-<script src='src/stats.js'></script>
+<script src='web_src/tablesort.min.js'></script>
+<script src='web_src/stats.js'></script>
 
 </body>
 </html>
