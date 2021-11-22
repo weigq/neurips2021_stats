@@ -1,6 +1,6 @@
 # NeurIPS2021 Statistics
 
-__More detailed data is available [online](https://guoqiangwei.xyz/htmls/neurips2021/neurips2021_statistics.html).__
+__More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html).__
 
 :triangular_flag_on_post:: the statistics are collected only on finally accepted submissions, not all rejected submissions are available.
 
@@ -30,7 +30,7 @@ __More detailed data is available [online](https://guoqiangwei.xyz/htmls/neurips
 - `221(74%)` submissions received two different decisions.
 - `77(26%)` submissions received two consistent decisions.
 - `199(67%)` submissions received one `Reject` decision.
-- [Details](https://guoqiangwei.xyz/htmls/neurips2021/neurips2021_consistency_experiments.html)
+- [Details](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_consistency_experiments.html)
   
   ![](assets/ce.png)
 
