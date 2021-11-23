@@ -24,9 +24,10 @@ __More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_s
     |Total|2632|6.36|8.75|3.75|
 - Ratings distribution
 ![](assets/stats_bar.png)
-- Top `50` keywords
+- Top `40` original keywords
 ![](assets/keywords_bar.png)
-
+- Top `30` keywords after merging some redundancies
+![](assets/clear_keywords_bar.png)
 
 ### Consistency experiment 
 
