@@ -121,7 +121,7 @@ th[role=columnheader]:not(.no-sort):hover:after {
 }
 
 .note {
-	background-color: rgba(240, 240, 240, 0.82);
+	background-color: rgba(240, 240, 240, 0.47);
 	border-radius: 6px;
 	/*padding: 1px 0;*/
 	width: 90%;

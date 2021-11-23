@@ -13,7 +13,7 @@ __More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_s
 - `2334` submissions are finally accepted.
 - `298(13%)` submissions received two set of reviews.
 - `2632(=2334+298)` set of reviews in total.
-- `46.36` average rating of all `2632` ratings.
+- `6.36` average rating of all `2632` ratings.
 - 
     |Decision|#|rating avg.|rating max|rating min|
     |---|---|---|---|---|
