@@ -2,7 +2,11 @@
 
 __More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html).__
 
-:triangular_flag_on_post:: the statistics are collected only on finally accepted submissions, not all rejected submissions are available.
+## __Note__
+
+- The statistics are collected __only from finally accepted submissions in main conference__.
+- __Finally rejected submissions are excluded__, most of these are not available in public.
+- __Workshop and Track submissions are excluded__.
 
 ### All submissions
 
@@ -27,10 +31,10 @@ __More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_s
 ### Consistency experiment 
 
 - `298` submissions received two set of reviews.
-- `221(74%)` submissions received two different decisions.
-- `77(26%)` submissions received two consistent decisions.
+- `221(74%)` submissions received two disagreed decisions.
+- `77(26%)` submissions received two agreed decisions.
 - `199(67%)` submissions received one `Reject` decision.
-- [Details](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_consistency_experiments.html)
+- [Details](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_consistency_experiments.html) (the two decisions are ordered.)
   
   ![](assets/ce.png)
 
