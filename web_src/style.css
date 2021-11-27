@@ -256,28 +256,28 @@ a:active {
 	margin-left: 5%;
 	margin-bottom: 20px;
 	display: flex;
-	border-bottom: 2px solid var(--nips-gray-line);
+	border-bottom: 1px solid var(--nips-gray-line);
 }
 
 .sub-menu {
-	height: 48px;
-	line-height: 48px;
+	height: 49px;
+	line-height: 49px;
 	font-size: 20px;
 	font-weight: bold;
 	margin-left: 10px;
 	margin-right: 10px;
 	padding: 0 10px;
 	background-color: var(--nips-bg-menu);
-	border-top: 2px solid var(--nips-gray-line);
-	border-left: 2px solid var(--nips-gray-line);
-	border-right: 2px solid var(--nips-gray-line);
+	border-top: 1px solid var(--nips-gray-line);
+	border-left: 1px solid var(--nips-gray-line);
+	border-right: 1px solid var(--nips-gray-line);
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	cursor: pointer;
 }
 
 .sub-menu:is(.act) {
-	border-bottom: 2px solid white;
+	border-bottom: 1px solid white;
 	cursor: default;
 	background-color: white;
 }
