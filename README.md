@@ -1,6 +1,7 @@
 # NeurIPS2021 Statistics
 
-__More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html).__
+- __More detailed data is available [online](https://guoqiangwei.xyz/neurips2021_stats/neurips2021_submissions.html).__
+- ICLR 2022 [statistics](https://github.com/weigq/iclr2022_stats).
 
 ## __Note__
 
